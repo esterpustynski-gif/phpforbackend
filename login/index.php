@@ -12,12 +12,14 @@
         </article>
         <article>
             <h2>Login Form</h2>
-            <form action="../task4.php" method="post">
-            <li>Username: <input type = "text" name="Username"></li>
-            <li>Email: <input type = "text" name = "Email"></li>
-            <li>Password: <input type = "password" name="Password"></li>
-            <input type = "submit" value = "Sign up">
-            <p>Already have an account? <a href="./">Login here instead</a></p>
+            <form action="../index.php" method="GET">
+                <li>Username: <input type = "text" name="Username"></li>
+                <li>Email: <input type = "text" name = "Email"></li>
+                <li>Password: <input type = "password" name="Password"></li>
+                <input type = "submit" value = "Sign up">
+                <p>Already have an account? <a href="./">Login here instead</a></p>
+            </form>
+            
             <?php include "../task4.php" ?>
         </article>
     </section>
